@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,28 @@
     <link rel="stylesheet" href="assets/css/style.index.css">
     <script src="assets/js/sript.index.js"></script>
 </head>
+
 <body>
-    
+    <h1>Próximos Posts</h1>
+    <div id="postForm">
+        <div>
+            <label for="title">Título</label>
+            <input type="text" id="title" name="title" required>
+        </div>
+        <div>
+            <label for="resume">Resumo</label>
+            <textarea type="text" id="resume" name="resume" required rows="4">
+        </div>
+        <div>
+            <label for="publisher">Publicação</label>
+            <input type="text" id="publisher" name="publisher" required>
+        </div>
+        <div>
+            <label for="">Data</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <button >Cadastrar</button>
+    </div>
 </body>
+
 </html>
