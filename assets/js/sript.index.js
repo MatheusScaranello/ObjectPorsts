@@ -42,3 +42,4 @@ function showPosts() {
     })
     document.getElementById("list").innerHTML = showContent;
 }
+
