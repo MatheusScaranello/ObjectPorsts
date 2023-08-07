@@ -13,13 +13,16 @@ h1{
     text-align: center;
     color: #d30000;
 }
-
-#postForm {
+main{
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+}
+
+#postForm {
+    max-width: 500px;
     width: 100%;
     padding: 20px;
     border: 1px solid #ccc;
@@ -33,6 +36,7 @@ label, input, textarea {
     margin-bottom: 10px;
     width: 100%;
     box-sizing: border-box;
+    max-width: 500px;
 }
 
 button{
@@ -41,7 +45,7 @@ button{
     cursor: pointer;
     padding: 0.35rem;
     border-radius: 8px;
-    width: 10%;
+    width: 100%;
 }
 
 button:hover {
