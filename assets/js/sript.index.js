@@ -77,3 +77,8 @@ function editPost(index) {
     document.getElementById("date").value = post.date
 }
 
+function removePost(index) {
+    posts.splice(index, 1);
+
+    showPosts();
+}
